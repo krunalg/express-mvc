@@ -1,0 +1,50 @@
+{
+  "name": "express-mvc",
+  "version": "0.0.1",
+  "description": "MVC Framework built on express and nodejs",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "body-parser": "^1.0.2",
+    "cli-color": "^0.3.2",
+    "connect-redis": "~2.0.0",
+    "cookie-parser": "^1.0.1",
+    "crypto": "0.0.3",
+    "ejs": "^1.0.0",
+    "express": "^4.2.0",
+    "express-session": "~1.7.4",
+    "moment": "^2.8.2",
+    "mongoose": "^3.8.14",
+    "morgan": "^1.0.1",
+    "multer": "^0.1.4",
+    "mysql": "~2.4.2",
+    "nforce": "~0.8.0-beta.5",
+    "node-mysql": "~0.3.7",
+    "npm": "^1.4.23",
+    "underscore": "^1.6.0",
+    "underscore.deferred": "^0.4.0",
+    "winston": "^0.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krunalg/express-mvc"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "ejs",
+    "mongoose"
+  ],
+  "author": "Krunal Goswami",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krunalg/express-mvc/issues"
+  },
+  "homepage": "https://github.com/krunalg/express-mvc"
+}

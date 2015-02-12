@@ -1,0 +1,33 @@
+<div class="row-fluid">   
+    <div class="container">
+        <div class="col-md-6">
+            <aside class="home-text">
+                <h1>Introducing the all-new<br>
+                    experience from<br>
+                    <span>Express MVC</span>
+                </h1>
+            </aside>
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+            <aside class="signin-container">
+                <form name="frmLogin" method="post" action="/">
+                    <% if(typeof error != "undefined" && !_.isEmpty(error)) { %>
+                        <div class="alert alert-danger text-center">
+                            <%= error %>
+                        </div>
+                    <% } %>
+                    <% var usernameValue = "" %>
+                    <% if(typeof username != "undefined" && !_.isEmpty(username)) { 
+                        usernameValue = username
+                    } %>
+                    <input name="email" value="<%= usernameValue %>" required class="input-block-level mail col-md-12" type="text" placeholder="Enter Your Email ID">
+                    <input name="password" required class="input-block-level password col-md-12" type="password" placeholder="Enter Your Password">
+                    <button type="submit" class="btn btn-primary">Sign In</button>
+                    <p><a href="#">Forgot Password ?</a></p>
+                </form>
+            </aside>
+            </div>
+        </div>    
+    </div>
+</div>
