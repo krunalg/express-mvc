@@ -2,7 +2,7 @@ Installing Express MVC on Local System
 ==================================
 ENV: Ubuntu 14.04
 - Follow steps as below:
-
+<pre>
 ----------------------------------
 sudo apt-get update
 sudo apt-get install nodejs
@@ -19,3 +19,4 @@ cd awtools
 npm install
 nodejs app.js
 ----------------------------------
+</pre>
