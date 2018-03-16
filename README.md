@@ -1,6 +1,6 @@
 Installing Express MVC on Local System
 ==================================
-ENV: Ubuntu 14.04
+ENV: Ubuntu 16.04
 - Follow steps as below:
 <pre>
 ----------------------------------
@@ -12,10 +12,8 @@ sudo apt-add-repository ppa:chris-lea/redis-server
 sudo apt-get update
 sudo apt-get install redis-server
 cd ~
-mkdir express-mvc
-cd express-mvc
 git clone {repo_url}
-cd awtools
+cd express-mvc
 npm install
 nodejs app.js
 ----------------------------------
